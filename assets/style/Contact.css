@@ -1,0 +1,47 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+body{
+	background-image: url()
+	background-color: #eee;
+	line-height: 1.3;
+	font-family: 'Raleway', sans-serif;
+}
+/*CSS rules for NAV bar*/
+nav{
+	 font-family: 'Tangerine', serif;
+  	font-size: 48px;
+  	text-shadow: 4px 4px 4px #aaa;
+	background-color: grey;
+}
+nav ul li a{
+	display: block;
+	border:1px solid;
+	border-radius: .5em;
+	padding:.5em 1em;
+	margin: .5em
+}
+nav ul li a:hover{
+	color: white
+}
+nav ul li a:active{
+	color: white;
+	}
+nav ul li a:visited{
+	color:white
+} 
+nav ul li {
+	font-size:.8em;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+}
+nav ul{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	display: flex;
+	justify-content: center; 
+}
